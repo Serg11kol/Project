@@ -11,6 +11,7 @@ public class Main {
         int[] nums = {2,7,11,15};
         int target = 15;
         int[] ints = twoSum(nums, target);
+
         System.out.println(ints[0] + " " + ints[1]);
     }
     public static int[] twoSum(int[] nums, int target) {
